@@ -1,0 +1,115 @@
+.download-section {
+    background-color: white;
+    padding-top: 120px;
+    padding-bottom: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-section__content-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.download-section__title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #373737;
+    text-align: center;
+}
+
+
+.download-section__description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 480px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: #4E4E4E;
+    text-align: center;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.apple-store {
+    width: 127px;
+    height: 46px;
+    background-color: #00AFDB;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+
+.apple-store:hover {
+    background-color: #009CC2;
+    cursor: pointer;
+}
+
+.apple-store_img {
+    width: 17px;
+    height: 20px;
+}
+
+.play-market {
+    width: 127px;
+    height: 46px;
+    background-color: #00AFDB;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.play-market:hover {
+    background-color: #009CC2;
+    cursor: pointer;
+}
+
+.play-market_img {
+    width: 20px;
+    height: 23px;
+}
+
+.image {
+    background: #009CC2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 59px;
+    height: 46px;
+}
+
+.download-button {
+    display: flex;
+    max-width: 186px;
+    width: 100%;
+}
+
+.download-button + .download-button {
+    margin-left: 30px;
+}

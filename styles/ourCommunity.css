@@ -1,0 +1,84 @@
+.ourCommunity-section {
+    background-color: #f5f6f7;
+    padding-top: 120px;
+    padding-bottom: 48px;
+    overflow-x: hidden;
+}
+
+.ourCommunity-section__content {
+    overflow: visible;
+}
+
+.ourCommunity-block {
+    text-align: center;
+    background-color: #f5f6f7;
+    z-index: 2;
+}
+
+.ourCommunity-block__content {
+    padding: 0 109px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourCommunity-section__img-small {
+    margin-bottom: 20px;
+}
+
+.slider__nav-items {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.slider__nav-controls {
+    display: flex;
+    align-self: center;
+}
+
+.slider-images {
+    display: flex;
+    transition: transform ease-out 0.5s;
+}
+
+.slider__arrow {
+    width: 9px;
+    height: 14px;
+}
+
+.slider__arrow--left {
+    margin-right: 14px;
+}
+
+.slider__arrow--right {
+    transform: rotate(180deg);
+    margin-left: 14px;
+}
+
+.slider__arrow:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.slider__img {
+    width: 407px;
+    height: 244px;
+    object-fit: cover;
+    margin-right: 30px;
+    transition: width ease-out .5s;
+}
+
+.slider__index {
+    font-size: 18px;
+    color: #373737;
+}
+
+.ourCommunity-block__title {
+    letter-spacing: 2.4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}

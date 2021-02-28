@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+    position: absolute;
+    width: 100%;
+}
+
+.header__logo {
+    height: 45px;
+    width: 44px;
+    margin: 0 100px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: white;
+    margin-right: 85px;
+    opacity: 0.8;
+}
+
+.header__link:last-child {
+    margin-right: 0;
+}
+
+.header__link--active {
+    border-bottom: 1px solid white;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.header__links-group {
+    display: flex;
+}

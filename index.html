@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/hero.css">
+    <link rel="stylesheet" href="./styles/rappresent-section.css">
+    <link rel="stylesheet" href="./styles/implement-section.css">
+    <link rel="stylesheet" href="./styles/ourCommunity.css">
+    <link rel="stylesheet" href="./styles/signUp-section.css">
+    <link rel="stylesheet" href="./styles/download-section.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <title>Webdev</title>
+</head>
+<body>
+    <div class="hero-section">
+        <header class="header">
+            <div class="header__links-group">
+                <a class="header__link header__link--active" href="#">About</a>
+                <a class="header__link" href="#">Syllabus</a>
+            </div>
+            <img class="header__logo" src="./assets/logo.svg">
+            <div class="header__links-group">
+                <a class="header__link" href="#">Projects</a>
+                <a class="header__link" href="#">FAQ</a>
+            </div>
+        </header>
+        <div class="hero-content">
+            <h1 class="hero-content__title">your life is WebDev</h1>
+            <p class="hero-content__description">Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
+            <button class="btn">
+                get started
+            </button>
+        </div>
+        <div class="hero-social">
+            <img class="hero-social__icon" src="assets/mail_fff.svg">
+            <img class="hero-social__icon" src="assets/facebook_fff.svg">
+            <img class="hero-social__icon" src="assets/insta_fff.svg">
+            <img class="hero-social__icon" src="assets/telegram_fff.svg">
+        </div>
+    </div>
+    <div class="rappresent-section">
+        <div class="content">
+            <div class="row">
+                <div class="col col-skip-1 col-4 col-skip-1-after">
+                    <h2 class="call-to-action-block__title">Rappresent your idea with a smart Design</h2>
+                    <p class="call-to-action-block__description">Tasks accompanying and related to programming include: testing, debugging, source code maintenance, <b>implementation of build systems</b>, and management of derived artifacts, such as the machine code of computer programs. </p>
+                    <button class="btn">
+                        get started
+                    </button>
+                </div>
+                <img class="col col-skip-1 col-4" src="./assets/content-image-1 (1).png">
+            </div>
+        </div>
+    </div>
+    <div class="ourCommunity-section">
+        <div class="content ourCommunity-section__content">
+            <div class="row">
+                <div class="ourCommunity-block col col-5">
+                    <div class="ourCommunity-block__content">
+                        <img class="ourCommunity-section__img-small" src="./assets/userpic-wrapper.svg">
+                        <h2 class="ourCommunity-block__title">our community</h2>
+                        <p>A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem, but it can also mean a security hacker in common language</p>
+                    </div>
+                </div>
+                <div class="ourCommunity__slider col col-6">
+                    <div class="slider__nav-items">
+                        <div class="slider__nav-controls">
+                            <div><img class="slider__arrow slider__arrow--left js-arrow" data-direction="left" src="./assets/arrow.svg" alt="arrow-left"></div>
+                            <div class="slider__index js-current-index">1</div>
+                            <div class="slider__index">/</div>
+                            <div class="slider__index">5</div>
+                            <div><img class="slider__arrow slider__arrow--right js-arrow" data-direction="right" src="./assets/arrow.svg" alt="arrow-left"></div>
+                        </div>
+                    </div>
+                    <div class="slider-images js-slider-images">
+                        <img class="slider__img" src="assets/slider-item (1).png">
+                        <img class="slider__img" src="assets/slider-item (2).png">
+                        <img class="slider__img" src="assets/slider-item (1).png">
+                        <img class="slider__img" src="assets/slider-item (2).png">
+                        <img class="slider__img" src="assets/slider-item (1).png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="implement-section">
+        <div class="content">
+            <div class="row">
+                <img class="col col-skip-1 col-4" src="./assets/content-image-2.png">
+                <div class="col col-skip-1 col-4">
+                    <h2 class="call-to-action-block__title">Implement right Code</h2>
+                    <p class="call-to-action-block__description">These might be considered part of the <b>programming process</b>, but often the term software development is used for this larger process with the term programming, implementation</p>
+                    <button class="btn">
+                        learn more
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="signUp-section">
+        <div class="content signUp-section__content">
+            <div class="row signUp-section__row">
+                <div class="col col-4 signUp-section__body">
+                    <h2 class="signUp-section__title">Sign up for our newsletter</h2>
+                    <div class="signUp-form">
+                        <input class="signUp-section__input" input type="text" placeholder="E-mail"></input>
+                        <button class="submit">
+                            <img class="check-icon" src="assets/check-icon.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="download-section">
+        <div class="download-section__content-block">
+            <h2 class="download-section__title">Download the App</h2>
+            <p class="download-section__description">Machine code was the language of early programs, written in the instruction <br> set of the particular machine, often in binary notation.</p>
+            <div class="buttons">
+                <div class="download-button">
+                    <button class="apple-store">
+                        apple store
+                    </button>
+                    <div class="image">
+                        <img class="apple-store_img" src="assets/icon-apple.svg">
+                    </div>
+                </div>
+                <div class="download-button">
+                    <button class="play-market">
+                        play market
+                    </button>
+                    <div class="image">
+                        <img class="play-market_img" src="assets/icon-android.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-section__content-block">
+            <div class="footer__links-group">
+                <a class="footer__link" href="#">Credits</a>
+                <a class="footer__link" href="#">Privacy</a>
+                <a class="footer__link" href="#">Our teams</a>
+            </div>
+            <img class="footer__logo" src="./assets/logo.svg">
+            <p class="footer__copyright">by TonYem for RSS at 2020</p>
+        </div>
+    </footer>
+    <script src="./slider.js"></script>
+</body>
+</html>
